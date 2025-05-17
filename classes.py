@@ -17,7 +17,7 @@ class Car():
         print(f"{self.year} {self.color} {self.model}")
 
 
-## class variable
+## Class Variable
 
 class Student():
 
@@ -28,3 +28,29 @@ class Student():
         self.name = name
         self.age = age
         Student.num_students += 1
+
+
+## Inheritance
+
+class Animal():
+    def __init__(self, name):
+        self.name = name
+        self.is_alive = True
+    
+    def eat(self):
+        print(f"{self.name} is eating")
+    
+    def sleep(self):
+        print(f"{self.name} is sleeping")
+    
+class Dog(Animal):
+    def speak(self):
+        print("Bow!")
+
+class Cat(Animal):
+    def speak(self):
+        print("Meeyaam!")
+
+class Mouse(Animal):
+    def speak(self):
+        print("chuu chuuu!")
