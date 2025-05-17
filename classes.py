@@ -17,7 +17,7 @@ class Car():
         print(f"{self.year} {self.color} {self.model}")
 
 
-## Class Variable
+# Class Variable
 
 class Student():
 
@@ -30,7 +30,7 @@ class Student():
         Student.num_students += 1
 
 
-## Inheritance
+# Inheritance
 
 class Animal():
     def __init__(self, name):
@@ -54,3 +54,33 @@ class Cat(Animal):
 class Mouse(Animal):
     def speak(self):
         print("chuu chuuu!")
+
+
+# Multiple and Multilevel Inheritance
+
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def eat(self):
+        print(f" {self.name} is eating")
+    
+    def sleep(self):
+        print(f" {self.name} is sleeping")
+
+class Prey(Animal):
+    def flee(self):
+        print(f" {self.name} is fleeing")
+
+class Predator(Animal):
+    def hunt(self):
+        print(f" {self.name} is hunting")
+
+class Rabbit(Prey):
+    pass
+
+class Hawk(Predator):
+    pass
+
+class Fish(Prey, Predator):
+    pass
