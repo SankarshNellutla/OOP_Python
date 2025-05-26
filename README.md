@@ -122,7 +122,7 @@ Alternatively, maintain a separate **private** repo for your personal notebooks.
 I learned many of the core concepts in this repository from the following resource:
 
 - **YouTube Video:** [Learn OOP in Python](https://www.youtube.com/watch?v=IbMDCwVm63M)
-  - All code samples and exercises have been completely rewritten and adapted from the author’s demonstrations to reinforce understanding.
+  - Code samples have been completely rewritten and adapted from the author’s demonstrations to reinforce understanding.
 
 Feel free to check out the original creator’s channel for more in-depth tutorials!
 
