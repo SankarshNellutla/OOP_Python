@@ -10,8 +10,8 @@
 
 Currently includes:
 
-- **Oop_practice.ipynb**: Interactive walkthrough of basic OOP principles.
 - **main.ipynb**: Consolidated examples and exercises for classes, inheritance, encapsulation.
+- **Oop_practice.ipynb**: Interactive walkthrough of basic OOP principles.
 
 > **Note**: These notebooks contain personal study notes. Consider moving them to a private repository or local directory if you wish to keep them confidential.
 
