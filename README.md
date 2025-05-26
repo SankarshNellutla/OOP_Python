@@ -1,5 +1,9 @@
 # OOP_Python
 
+## About
+
+`OOP_Python` was created by Sankarsh Nellutla as a personal learning tool to reinforce core OOP principles in Python through practical, hands-on Jupyter notebooks. This repo serves both as a study aid and as a reference for anyone looking to solidify their understanding of classes, inheritance, encapsulation, and polymorphism.
+
 ## Overview
 
 `OOP_Python` is a household repo of Jupyter notebooks exploring fundamental object-oriented programming (OOP) concepts in Python.
@@ -32,7 +36,7 @@ Currently includes:
 
 ## Requirements
 
-- Python 3.8+
+- Python (version 3.x) — on some systems invoke via `python`, on others via `python3`. Use whichever points to Python 3.
 - Jupyter Notebook or JupyterLab
 - (Optional) [Virtual environment](https://docs.python.org/3/tutorial/venv.html)
 
@@ -45,11 +49,17 @@ Currently includes:
    ```
 
 2. **(Optional) Create a virtual environment**:
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate      # macOS/Linux
-   venv\\Scripts\\activate.bat # Windows
-   ```
+   - If your system’s Python 3 is invoked with `python3`:
+     ```bash
+     python3 -m venv venv
+     source venv/bin/activate      # macOS/Linux
+     venv\Scripts\activate.bat   # Windows
+     ```
+   - If `python` points to Python 3:
+     ```bash
+     python -m venv venv
+     source venv/bin/activate
+     ```
 
 3. **Install dependencies** (if you add any in `requirements.txt`):
    ```bash
@@ -106,6 +116,15 @@ Alternatively, maintain a separate **private** repo for your personal notebooks.
   ```bash
   gh repo edit SankarshNellutla/OOP_Python --visibility private
   ```
+
+## Acknowledgments
+
+I learned many of the core concepts in this repository from the following resource:
+
+- **YouTube Video:** [Learn OOP in Python](https://www.youtube.com/watch?v=IbMDCwVm63M)
+  - All code samples and exercises have been completely rewritten and adapted from the author’s demonstrations to reinforce understanding.
+
+Feel free to check out the original creator’s channel for more in-depth tutorials!
 
 ## Contributing
 
