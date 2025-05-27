@@ -2,7 +2,7 @@
 
 ## About
 
-`OOP_Python` was created by Sankarsh Nellutla as a personal learning tool to reinforce core OOP principles in Python through practical, hands-on Jupyter notebooks. This repo serves both as a study aid and as a reference for anyone looking to solidify their understanding of classes, inheritance, encapsulation, and polymorphism.
+`OOP_Python` was created by Sankarsh Nellutla as a personal learning notes to reinforce core OOP principles in Python through practical, hands-on Jupyter notebooks. This repo serves both as a study aid and as a reference for anyone looking to solidify their understanding of classes, inheritance, encapsulation, and polymorphism.
 
 ## Overview
 
