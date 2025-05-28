@@ -1,6 +1,3 @@
-Understood. I will rewrite the README to professionally reflect your current repository, which covers both Python fundamentals and OOP, structured similarly to your original style but without emojis and with polished, formal language. I'll update the document shortly.
-
-
 # Python
 
 ## Overview
