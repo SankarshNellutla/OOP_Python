@@ -1,45 +1,147 @@
 # Python
 
+## About
+
+`Python` is a personal learning repository created by Sankarsh Nellutla to consolidate foundational Python programming concepts along with object-oriented programming (OOP) principles. This collection of Jupyter notebooks is aimed at both reinforcing theory and providing hands-on coding practice.
+
 ## Overview
 
-This repository provides a collection of Jupyter notebooks designed for learning and practicing Python programming. It is intended to serve both beginners and intermediate learners who wish to understand general Python programming concepts and object-oriented programming (OOP) principles. The content includes comprehensive examples, explanations, and exercises that can be run interactively.
+This repository serves as a structured resource for:
 
-## Notebooks
+* Understanding Python syntax and structure
+* Practicing object-oriented principles
+* Reinforcing programming logic through examples and exercises
 
-The repository contains the following notebooks:
+It includes foundational and intermediate-level Python material designed for both quick reference and deeper exploration.
 
-* **BasicPython\_main.ipynb**: An introduction to core Python programming concepts, such as variables, data types, control structures, functions, and modules. This notebook includes code examples and explanations that cover Python syntax and fundamental features.
-* **OopPython\_main.ipynb**: A focused tutorial on object-oriented programming (OOP) in Python. It covers classes, objects, inheritance, encapsulation, and polymorphism, demonstrating how to define classes and use OOP techniques to structure code.
-* **Oop\_practice.ipynb**: A set of practice exercises and problems designed to reinforce OOP concepts. Users can apply what they've learned by working through these exercises, which include real-world examples and step-by-step solutions.
+## Table of Contents
+
+* [Features](#features)
+* [Requirements](#requirements)
+* [Installation & Usage](#installation--usage)
+* [Repository Structure](#repository-structure)
+* [Hiding Personal Notes](#hiding-personal-notes)
+* [Making the Repo Private](#making-the-repo-private)
+* [Acknowledgments](#acknowledgments)
+* [Contributing](#contributing)
+* [License](#license)
+
+## Features
+
+* Well-organized Jupyter notebooks for:
+
+  * Python basics: syntax, data types, control flow
+  * Object-oriented programming: classes, inheritance, polymorphism, encapsulation
+  * Real-world inspired exercises and demos
+
+## Requirements
+
+* Python 3.x
+* Jupyter Notebook or JupyterLab
+* (Optional) [Virtual environment](https://docs.python.org/3/tutorial/venv.html)
+
+## Installation & Usage
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/SankarshNellutla/Python.git
+   cd Python
+   ```
+
+2. **(Optional) Create a virtual environment**:
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate.bat
+   ```
+
+3. **Install any dependencies** (if applicable):
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Launch Jupyter Notebook**:
+
+   ```bash
+   jupyter notebook
+   ```
+
+5. Open any of the notebooks in your browser to begin learning.
 
 ## Repository Structure
 
-```
+```text
 Python/
-├── BasicPython_main.ipynb    # Core Python programming concepts and examples
-├── OopPython_main.ipynb      # Object-oriented programming tutorial
-├── Oop_practice.ipynb        # Practice exercises for OOP concepts
-└── README.md                 # Project documentation (this file)
+├── BasicPython_main.ipynb   # Python fundamentals: syntax, data types, control flow
+├── OopPython_main.ipynb     # Object-oriented programming examples
+├── Oop_practice.ipynb       # Hands-on OOP exercises
+├── .gitignore               # Ignore patterns (e.g., .DS_Store)
+└── README.md                # This file
 ```
 
-## Setup and Usage
+## Hiding Personal Notes
 
-To use this repository, follow these steps:
+To keep notebooks private or exclude personal study notes from public view:
 
-1. **Install prerequisites:** Ensure that Python 3.x and Jupyter Notebook (or JupyterLab) are installed. If not, download Python from the [official site](https://www.python.org/) and install Jupyter via `pip install jupyter`.
-2. **Clone the repository:** Clone this repository to your local machine using `git clone https://github.com/SankarshNellutla/Python.git`.
-3. **Run the notebooks:** Navigate to the cloned directory, launch Jupyter Notebook, and open the notebooks of interest. Execute the cells interactively to see outputs and experiment with the code.
-4. **Explore the content:** Review the provided examples and exercises in each notebook to learn Python basics and OOP concepts in depth.
+1. Remove them from version control:
+
+   ```bash
+   git rm --cached *.ipynb
+   ```
+
+2. Add to `.gitignore`:
+
+   ```text
+   *.ipynb
+   ```
+
+3. Commit and push:
+
+   ```bash
+   git add .gitignore
+   git commit -m "Exclude notebooks from version control"
+   git push origin main
+   ```
+
+Alternatively, maintain a separate private repository.
+
+## Making the Repo Private
+
+* **Via GitHub UI**:
+
+  1. Go to **Settings** > **General**
+  2. Scroll to **Danger Zone** > **Change repository visibility**
+  3. Choose **Make private** and confirm
+
+* **Via GitHub CLI**:
+
+  ```bash
+  gh repo edit SankarshNellutla/Python --visibility private
+  ```
+
+## Acknowledgments
+
+The content is largely inspired by personal exploration and supplemented by tutorials such as:
+
+* [Learn OOP in Python](https://www.youtube.com/watch?v=IbMDCwVm63M)
+* [Python Programming - Programming with Mosh](https://www.youtube.com/watch?v=_uQrJ0TkZlc)
+
+Code samples have been adapted and rewritten to enhance clarity and retention.
 
 ## Contributing
 
-Contributions are welcome and encouraged. To contribute:
-
-* Open an issue for suggestions, improvements, or bug reports.
-* Submit a pull request with clear descriptions of changes or new content.
-* Follow standard coding conventions and ensure any added examples are well-documented.
-* Maintain focus on the repository’s learning objectives of Python fundamentals and OOP.
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature-topic`
+3. Add or modify content
+4. Ensure notebooks run error-free
+5. Submit a Pull Request
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+---
+
+© 2025 Sankarsh Nellutla
